@@ -1,7 +1,7 @@
 {
   "name": "chatme",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,20 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~51.0.28",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@shopify/flash-list": "1.6.4",
+    "expo": "~51.0.39",
+    "expo-checkbox": "~3.0.0",
+    "expo-font": "~12.0.10",
+    "expo-image": "~1.13.0",
+    "expo-image-picker": "~15.1.0",
+    "expo-router": "~3.5.24",
+    "expo-splash-screen": "~0.27.7",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-native": "0.74.5",
+    "react-native-circular-progress": "^1.4.1",
+    "react-native-svg": "15.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
